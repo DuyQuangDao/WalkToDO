@@ -1,7 +1,7 @@
 name: WalkToDo
 main: taptodo\TapToDo
 version: 2.3.0
-author: QuangDepZai and Chaostix
+author: QuangDepZai and ChaostixZix
 api: [1.0.0, 3.0.0-ALPHA5]
 load: POSTWORLD
 commands:
