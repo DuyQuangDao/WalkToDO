@@ -204,7 +204,7 @@ class TapToDo extends PluginBase implements CommandExecutor, Listener{
             unset($this->sessions[$event->getPlayer()->getName()]);
         }
         else{
-            if(($b = $this->getBlock($event->getPlayer()->floor()->subtract(0, 1), null, null, null)) instanceof Block && $event->getPlayer()->hasPermission("taptodo.tap")){
+            if(($b = $event ->getPlayer()->getLevel()->getBlock($event->getPlayer()->floor()->subtract(0, 1))) && $event->getPlayer()->hasPermission("taptodo.tap")){
                 $b->executeCommands($event->getPlayer());
             }
         }
