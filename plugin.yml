@@ -1,5 +1,5 @@
 name: WalkToDo
-main: taptodo\TapToDo
+main: walktodo\TapToDo
 version: 2.3.0
 author: QuangDepZai and ChaostixZix
 api: [1.0.0, 3.0.0-ALPHA5]
